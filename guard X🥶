@@ -1,0 +1,209 @@
+-- Made by R <3 J#4669
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local inf = Instance.new("TextButton")
+local owl = Instance.new("TextButton")
+local gulag = Instance.new("TextButton")
+local prem = Instance.new("TextButton")
+local faded = Instance.new("TextButton")
+local recodex = Instance.new("TextButton")
+local fly = Instance.new("TextButton")
+local swag = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(194, 0, 45)
+main.Position = UDim2.new(0.0725462288, 0, 0.0923379138, 0)
+main.Size = UDim2.new(0, 523, 0, 254)
+main.Active = true
+main.Draggable = true
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 102, 0, 89)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7737796196"
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(222, 8, 47)
+TextLabel.Position = UDim2.new(0.195028678, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 368, 0, 89)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Guard X🥶"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 5, 38)
+TextButton.Position = UDim2.new(0.898661554, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 53, 0, 53)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+inf.Name = "inf"
+inf.Parent = main
+inf.BackgroundColor3 = Color3.fromRGB(255, 3, 70)
+inf.Position = UDim2.new(0.0248565972, 0, 0.40157479, 0)
+inf.Size = UDim2.new(0, 100, 0, 50)
+inf.Font = Enum.Font.SourceSans
+inf.Text = "inf"
+inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+inf.TextSize = 14.000
+inf.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+owl.Name = "owl"
+owl.Parent = main
+owl.BackgroundColor3 = Color3.fromRGB(255, 21, 165)
+owl.Position = UDim2.new(0.0248565972, 0, 0.649606228, 0)
+owl.Size = UDim2.new(0, 100, 0, 50)
+owl.Font = Enum.Font.SourceSans
+owl.Text = "owl"
+owl.TextColor3 = Color3.fromRGB(0, 0, 0)
+owl.TextSize = 14.000
+owl.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+gulag.Name = "gulag"
+gulag.Parent = main
+gulag.BackgroundColor3 = Color3.fromRGB(255, 10, 63)
+gulag.Position = UDim2.new(0.282982796, 0, 0.40157479, 0)
+gulag.Size = UDim2.new(0, 98, 0, 50)
+gulag.Font = Enum.Font.SourceSans
+gulag.Text = "gulag"
+gulag.TextColor3 = Color3.fromRGB(0, 0, 0)
+gulag.TextSize = 14.000
+gulag.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ezmicupballs/ez-balls/main/ez%20mic%20up%20balls", true))()
+end)
+
+prem.Name = "prem"
+prem.Parent = main
+prem.BackgroundColor3 = Color3.fromRGB(255, 16, 124)
+prem.Position = UDim2.new(0.282982796, 0, 0.649606287, 0)
+prem.Size = UDim2.new(0, 98, 0, 50)
+prem.Font = Enum.Font.SourceSans
+prem.Text = "prem"
+prem.TextColor3 = Color3.fromRGB(0, 0, 0)
+prem.TextSize = 14.000
+prem.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ezmicupballs/Premium/main/Ryans%20premium%20gui", true))()
+end)
+
+faded.Name = "faded"
+faded.Parent = main
+faded.BackgroundColor3 = Color3.fromRGB(255, 11, 68)
+faded.Position = UDim2.new(0.516252398, 0, 0.40157479, 0)
+faded.Size = UDim2.new(0, 93, 0, 50)
+faded.Font = Enum.Font.SourceSans
+faded.Text = "faded"
+faded.TextColor3 = Color3.fromRGB(0, 0, 0)
+faded.TextSize = 14.000
+faded.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+recodex.Name = "recode x"
+recodex.Parent = main
+recodex.BackgroundColor3 = Color3.fromRGB(255, 6, 60)
+recodex.Position = UDim2.new(0.717017233, 0, 0.40157479, 0)
+recodex.Size = UDim2.new(0, 65, 0, 50)
+recodex.Font = Enum.Font.SourceSans
+recodex.Text = "recode x"
+recodex.TextColor3 = Color3.fromRGB(0, 0, 0)
+recodex.TextSize = 14.000
+recodex.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+fly.Name = "fly"
+fly.Parent = main
+fly.BackgroundColor3 = Color3.fromRGB(255, 16, 112)
+fly.Position = UDim2.new(0.516252398, 0, 0.649606287, 0)
+fly.Size = UDim2.new(0, 93, 0, 50)
+fly.Font = Enum.Font.SourceSans
+fly.Text = "fly"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextSize = 14.000
+fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ezmicupballs/fly/main/sheesh", true))()
+end)
+
+swag.Name = "swag"
+swag.Parent = main
+swag.BackgroundColor3 = Color3.fromRGB(255, 19, 101)
+swag.Position = UDim2.new(0.717017233, 0, 0.649606287, 0)
+swag.Size = UDim2.new(0, 65, 0, 50)
+swag.Font = Enum.Font.SourceSans
+swag.Text = "swag"
+swag.TextColor3 = Color3.fromRGB(0, 0, 0)
+swag.TextSize = 14.000
+swag.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 12, 64)
+TextLabel_2.Position = UDim2.new(0.152963668, 0, 0.877952754, 0)
+TextLabel_2.Size = UDim2.new(0, 372, 0, 31)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "more script soon snicker gang"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_2.Position = UDim2.new(0.739687145, 0, 0.603143394, 0)
+TextButton_2.Size = UDim2.new(0, 98, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "open squid🥵"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+-- Scripts:
+
+local function IUSBYX_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(IUSBYX_fake_script)()
+local function IVQAA_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local frame = script.Parent.Parent.main
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(IVQAA_fake_script)()
